@@ -188,7 +188,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PbrOpaqueDoubleSided_Tex_Armadillo
-  m_Shader: {fileID: 4800000, guid: fdd67cb064f9adf4ea9ff64d948f9387, type: 3}
+  m_Shader: {fileID: 4800000, guid: 2d606fd47b43446739974645ed823957, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -252,16 +252,18 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RoughnessFactor: 0.96994764
+    - _RoughnessFactor: 0
+    - _Shininess: 0.078125
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColorFactor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColorFactor: {r: 0.9528302, g: 0.30967632, b: 0.022472408, a: 1}
+    - _Color: {r: 0.43635526, g: 0.9150943, b: 0.2719384, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.735849, g: 0.010412939, b: 0.11404696, a: 0}
 --- !u!28 &4022048826857299665
 Texture2D:
   m_ObjectHideFlags: 0
